@@ -7,11 +7,6 @@
     line-height: 1;
   }
 
-  .btn {
-    padding: .8rem 2rem;
-    font-weight: 600;
-  }
-
   .lead {
     @include font-size(1rem);
     font-weight: 400;
@@ -54,6 +49,10 @@
       @include font-size(1.25rem);
     }
   }
+}
+
+.bd-btn-lg {
+  padding: .8rem 2rem;
 }
 
 .masthead-followup-icon {
