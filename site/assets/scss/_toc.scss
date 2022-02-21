@@ -72,6 +72,15 @@
 }
 
 .bd-toc-collapse {
+  @include media-breakpoint-down(md) {
+    nav {
+      padding: 1.25rem;
+      background-color: var(--bs-gray-100);
+      border: 1px solid $border-color;
+      @include border-radius(.25rem);
+    }
+  }
+
   @include media-breakpoint-up(md) {
     display: block !important; // stylelint-disable-line declaration-no-important
   }
