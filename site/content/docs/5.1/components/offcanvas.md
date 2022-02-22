@@ -139,11 +139,11 @@ Try the top, right, and bottom examples out below.
 Responsive offcanvas classes hide content outside the viewport from a specified breakpoint and down. Above that breakpoint, the contents within will behave as usual. For example, `.offcanvas-lg` hides content in an offcanvas below the `lg` breakpoint, but shows the content above the `lg` breakpoint.
 
 {{< example >}}
-<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasReponsive" aria-controls="offcanvasReponsive">Toggle offcanvas</button>
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">Toggle offcanvas</button>
 
-<div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasReponsive" aria-labelledby="offcanvasReponsiveLabel">
+<div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
   <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasReponsiveLabel">Responsive offcanvas</h5>
+    <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Responsive offcanvas</h5>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
